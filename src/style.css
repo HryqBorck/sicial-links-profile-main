@@ -1,0 +1,70 @@
+html body{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 8%);
+}
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.container{
+    min-width: 309px;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    text-align: center;
+    font-family: inter;
+    font-size: 12px;
+}
+
+.container .content img{
+    border-radius: 50%;
+    width: 71px;
+    margin: 30px 0 21px 0;
+}   
+
+.container .content .name{
+    font-size: 20px;
+}
+
+.container .content .from{
+    margin: 7px 0 22px 0;
+    color: hsl(75, 94%, 57%);
+}
+
+.container .content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 11px 32px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    
+}
+
+.container .content a:hover{
+    color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.container .attribution{
+    padding: 15px;
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
